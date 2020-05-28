@@ -1,5 +1,5 @@
 {
-  "name": "@AciDev/sails-generate-vue-component",
+  "name": "@acidev/sails-generate-vue-component",
   "version": "1.0.0",
   "description": "sails generate vue-component",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "generate",
     "plugin"
   ],
-  "author": "AciDev",
+  "author": "acidev",
   "license": "MIT",
   "dependencies": {
     "@sailshq/lodash": "^3.10.3"
@@ -23,7 +23,7 @@
   "devDependencies": {
     "eslint": "3.19.0"
   },
-  "repository": {"type":"git","url":"git://github.com/AciDev/sails-generate-vue-component.git"},
+  "repository": {"type":"git","url":"git://github.com/acidev/sails-generate-vue-component.git"},
   "sailsGenerator": {
     "type": "vue-component",
     "behavior": "Implements or overrides `sails generate vue-component`",

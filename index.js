@@ -8,7 +8,7 @@ var _ = require('@sailshq/lodash');
 
 
 /**
- * @AciDev/sails-generate-vue-component
+ * @acidev/sails-generate-vue-component
  *
  * Usage:
  * `sails generate vue-component`
