@@ -62,6 +62,23 @@ module.exports = {
     //
     // > Or call `done()` with an Error for first argument to signify a fatal error
     // > and halt generation of all targets.
+    const componentName = scope.args[0];
+
+
+    if(typeof componentName === 'undefined') {
+      return done('Please provide a name for this controller.1');
+    }
+
+    if(typeof componentName !== 'string') {
+      return done(`${typeof componentName} Please provide a name for this controller.2`);
+    }
+
+    const foldersFile = componentName.split('/');
+
+    scope.componentName = foldersFile[foldersFile.length-1].toLowerCase();
+
+    scope.fileName = `${componentName.toLowerCase()}.component.js`;
+
     return done();
   },
 
@@ -92,7 +109,11 @@ module.exports = {
     // • See https://sailsjs.com/docs/concepts/extending-sails/generators for more documentation.
     // (Or visit https://sailsjs.com/support and talk to a maintainer of a core or community generator.)
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    //'./assets/js/components': { folder: {} },
 
+    './assets/js/components/:fileName': {
+      template: 'component.template.js',
+    },
   },
 
 
