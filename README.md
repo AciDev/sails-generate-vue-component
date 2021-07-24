@@ -2,12 +2,12 @@
 
 A `vue-component` generator for use with the Sails command-line interface.
 
-This is a modified version of the `@acidev/sails-generate-vue-component` package, currently in development. The original project can be found [here on GitHub](https://github.com/AciDev/sails-generate-vue-component) and [here on NPM](https://www.npmjs.com/package/@acidev/sails-generate-vue-component).
+This is a modified version of the `@acidev/sails-generate-vue-component` package. The original package can be found [here on GitHub](https://github.com/AciDev/sails-generate-vue-component) and [here on NPM](https://www.npmjs.com/package/@acidev/sails-generate-vue-component).
 
-The following changes were made to the original project:
-* change 1
-* change 2
-* change 3
+The following functional changes were made:
+* lodash dependency removed
+* component name and folder path are no longer forced to lower case
+* a corresponding LESS file is generated along with the JS file
 
 ## Installation
 
