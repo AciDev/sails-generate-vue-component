@@ -1,6 +1,6 @@
 /**
  * @module @funhouse-atelier/sails-generate-vue-component
- * @description Generates a vue-component.
+ * @desc Generates a vue-component.
  * @usage
  * `sails generate vue-component <new-component-name>`
  *   OR
@@ -75,12 +75,12 @@ module.exports = {
 
     // Generate the JS file for the component
     './assets/js/components/:jsFilePath': {
-      template: 'component.js.template',
+      template: 'component.js',
     },
 
     // Generate the LESS file for the component
     './assets/styles/components/:lessFilePath': {
-      template: 'styles.less.template',
+      template: 'component.less',
     },
   },
 

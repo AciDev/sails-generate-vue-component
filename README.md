@@ -8,6 +8,8 @@ The following functional changes were made:
 * lodash dependency removed
 * component name and folder path are no longer forced to lower case
 * a corresponding LESS file is generated along with the JS file
+* changed "props" in template from array-type definition to object-type
+* added "watch" to template
 
 ## Installation
 

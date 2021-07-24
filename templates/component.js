@@ -1,10 +1,8 @@
 /**
- * <%= componentName %>
- * -----------------------------------------------------------------------------
- * A new component
- *
- * @type {Component}
- * -----------------------------------------------------------------------------
+ * @name <<%= componentName %>>
+ * @desc Vue v2.x component
+ * @usage `<<%= componentName  %>></<%= componentName %>>`
+ * @docs https://vuejs.org/v2/guide/components.html
  */
 
 parasails.registerComponent('<%= componentName %>', {
@@ -12,7 +10,9 @@ parasails.registerComponent('<%= componentName %>', {
     //  ╔═╗╦═╗╔═╗╔═╗╔═╗
     //  ╠═╝╠╦╝║ ║╠═╝╚═╗
     //  ╩  ╩╚═╚═╝╩  ╚═╝
-    props: [],
+    props: {
+      
+    },
   
     //  ╦╔╗╔╦╔╦╗╦╔═╗╦    ╔═╗╔╦╗╔═╗╔╦╗╔═╗
     //  ║║║║║ ║ ║╠═╣║    ╚═╗ ║ ╠═╣ ║ ║╣
@@ -26,7 +26,9 @@ parasails.registerComponent('<%= componentName %>', {
     //  ╦ ╦╔╦╗╔╦╗╦
     //  ╠═╣ ║ ║║║║
     //  ╩ ╩ ╩ ╩ ╩╩═╝
-    template: `<div>Welcome to your new component</div>`,
+    template: 
+      `<div>Welcome to your new component</div>`
+    ,
   
     //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
     //  ║  ║╠╣ ║╣ ║  ╚╦╝║  ║  ║╣
@@ -43,6 +45,10 @@ parasails.registerComponent('<%= componentName %>', {
   
     },
   
+    watch: {
+
+    },
+
     //  ╦╔╗╔╔╦╗╔═╗╦═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ║║║║ ║ ║╣ ╠╦╝╠═╣║   ║ ║║ ║║║║╚═╗
     //  ╩╝╚╝ ╩ ╚═╝╩╚═╩ ╩╚═╝ ╩ ╩╚═╝╝╚╝╚═╝
