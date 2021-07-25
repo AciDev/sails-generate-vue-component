@@ -93,9 +93,13 @@ module.exports = {
 
     // Log success message to console
     console.log(
-      `A new Vue component named <${scope.componentName}> was created. If you want to create styles specific to this component, you will need to manually import the new LESS stylesheet from your "assets/styles/importer.less" file; e.g.:
+      `
+      A new Vue component named <${scope.componentName}> was created. If you want to 
+      create styles specific to this component, you will need to manually import the new 
+      LESS stylesheet from your "assets/styles/importer.less" file; e.g.:
 
-      @import 'components/${scope.lessFileName}'`
+      @import 'components/${scope.lessFilePath}'
+      `
     );
 
     // Finished

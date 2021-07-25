@@ -22,12 +22,16 @@
     "eslint": "3.19.0"
   },
   "repository": {
-    "type":"git",
-    "url":"https://github.com/FunhouseAtelier/sails-generate-vue-component.git"
+    "type": "git",
+    "url": "git+https://github.com/FunhouseAtelier/sails-generate-vue-component.git"
   },
   "sailsGenerator": {
     "type": "vue-component",
     "behavior": "Implements or overrides `sails generate vue-component`",
     "sailsVersion": "^1.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/FunhouseAtelier/sails-generate-vue-component/issues"
+  },
+  "homepage": "https://github.com/FunhouseAtelier/sails-generate-vue-component#readme"
 }
