@@ -36,7 +36,7 @@ Then merge the following into your `.sailsrc` file:
 ## Usage
 
 ```bash
-$ sails generate vue-component 
+$ sails generate vue-component <new-component-name>
 ```
 
 ## Need help?
